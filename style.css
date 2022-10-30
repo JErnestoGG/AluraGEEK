@@ -2,14 +2,16 @@
     margin: 0; padding: 0 ; box-sizing: border-box; list-style: none; text-decoration: none;
 }
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
 
-
+/* Style header section*/
 .headerBox{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 .headerBox img{
@@ -25,16 +27,15 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 2em;
-    padding: 2px 4px;
+    padding: 1px 4px;
     border: 1.5px solid royalblue;
     border-radius: 15px;
 }
 
-
 .headerBox input{
     width: 100%;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 3px;
     outline: none;
     border: none;
 }
@@ -45,7 +46,7 @@ body{
    position:relative;
 }
 
-.headerBox button{
+.headerBox button, .bannerContainer button{
     padding: 8px 10px;
     font-size: 1em;
     font-weight: bold;
@@ -53,6 +54,36 @@ body{
     background-color: royalblue;
     border: none;
     border-radius: 10px;
+}
+
+/* Style banner section*/
+
+
+.bannerContainer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/bannerMobile.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+.bannerContainer h1{
+    color: azure;
+    padding-left: 1em; 
+   
+}
+.bannerContainer p{
+    color: azure;
+    padding-left: 1em; 
+}
+
+
+.bannerContainer button{
+width: 35%;
+margin: 10px 5px 5px 25px;
 }
 
 
@@ -68,13 +99,7 @@ body{
 
 
 
-
-
-
-
-
-
-
+/*Product List Style */
 .productList{
     display: flex;
     flex-flow: wrap;
