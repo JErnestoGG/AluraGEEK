@@ -1,13 +1,84 @@
 *{
     margin: 0; padding: 0 ; box-sizing: border-box; list-style: none; text-decoration: none;
 }
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header{
+    display:flex;
+    flex-flow: row wrap;
+    }
+
+
+
+.headerBox img{
+    width: 40%;
+    padding-left: 2em;
+}
+
+.headerBox input{
+    width: 50%;
+    font-size: 1em;
+    padding: 5px;
+    margin: 0 2.5em;
+    border: 2px solid royalblue;
+    border-radius: 20px;
+}
+
+.headerBox button{
+    padding: 8px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .pokemonList{
     display: flex;
     flex-flow: wrap;
 }
-.pokemonList li img{
+.description{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.pokemonList li{
     width: 40%;
-    padding: 0;
+    margin: 1em 1.2em;
+   text-align: center;
+ 
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1em 0;
+}
+.pokemonList li img{
+    width: 100%;
+    
+}
+.pokemonList li h3{
+    font-size: 1em;
+    
 }
