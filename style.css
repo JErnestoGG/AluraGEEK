@@ -4,25 +4,45 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-header{
-    display:flex;
+
+
+.headerBox{
+    display: flex;
     flex-flow: row wrap;
-    }
-
-
-
-.headerBox img{
-    width: 40%;
-    padding-left: 2em;
+    justify-content: center;
 }
 
-.headerBox input{
+.headerBox img{
     width: 50%;
-    font-size: 1em;
+    
+   
+}
+
+.searchContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2em;
+    padding: 2px 4px;
+    border: 1.5px solid royalblue;
+    border-radius: 15px;
+}
+
+
+.headerBox input{
+    width: 100%;
+    font-size: 0.8em;
     padding: 5px;
-    margin: 0 2.5em;
-    border: 2px solid royalblue;
-    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.searchContainer #iconSearch{
+   color: royalblue;
+   cursor:pointer;
+   position:relative;
 }
 
 .headerBox button{
@@ -55,30 +75,31 @@ header{
 
 
 
-.pokemonList{
+.productList{
     display: flex;
     flex-flow: wrap;
 }
+
 .description{
     display: flex;
     justify-content: space-between;
     padding: 1em;
 }
-.pokemonList li{
+
+.productList li{
     width: 40%;
     margin: 1em 1.2em;
-   text-align: center;
- 
+    text-align: center;
     background-color: aliceblue;
-    border: 1px solid black;
+    border: 1px solid royalblue;
     border-radius: 8px;
     padding: 1em 0;
 }
-.pokemonList li img{
+.productList li img{
     width: 100%;
     
 }
-.pokemonList li h3{
+.productList li h3{
     font-size: 1em;
     
 }
