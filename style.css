@@ -93,14 +93,14 @@ margin: 10px 5px 5px 25px;
 
 
 
-
-
 /*Product List Style */
 .productX{
- 
+
+
 }
 .productList{
     display: flex;
+    justify-content: center;
     flex-flow: wrap;
     margin-bottom: 3em;
 }
@@ -114,13 +114,17 @@ margin: 10px 5px 5px 25px;
 
 
 .productList li{
-    width: 40%;
-    margin: 1em 1.2em;
+    width: 35%;
+    margin: 1.5em 1.2em;
     text-align: center;
     background-color: aliceblue;
     border: 1px solid royalblue;
     border-radius: 8px;
-    padding: 1em 0;
+    padding: 1em 0;  
+}
+
+.productList li:last-child, .productList li:nth-child(5){
+    display: none;
 }
 .productList li img{
     width: 100%;
@@ -135,6 +139,9 @@ margin: 10px 5px 5px 25px;
 
 .infoAndContact{
     width: 100%;
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,6 +155,7 @@ margin: 10px 5px 5px 25px;
     justify-content: center;
     align-items: center; 
     margin:1em 0;
+    
 }
 
 .divFormMensaje{
@@ -260,9 +268,12 @@ margin: 10px 5px 5px 25px;
 }
 .productList{
     flex-flow: row;
+    padding: 0 3em;
 }
 
-
+.productList li:last-child, .productList li:nth-child(5){
+    display: block;
+}
 
 
 .productList li img{
