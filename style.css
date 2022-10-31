@@ -46,7 +46,8 @@ body{
    position:relative;
 }
 
-.headerBox button, .bannerContainer button, .divFormMensaje #bEnviar{
+.headerBox button, .bannerContainer button, .divFormMensaje #bEnviar,
+.loginContainer button{
     padding: 8px 10px;
     font-size: 1em;
     font-weight: bold;
@@ -206,7 +207,44 @@ margin: 10px 5px 5px 25px;
 }
 
 
+/*Style for Login Page Mobile*/
 
+#sectionLogin{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.loginContainer{
+    height: 100%;
+    width: 70%;
+    padding: 2.5em;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction:  column;
+    justify-content: start;
+    align-items: center;
+    
+}
+.loginContainer h2{
+    color: royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.credentials{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.loginContainer input{
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+.loginContainer h2, label, input, button{
+    margin: 4px 0;
+}
 
 
 
