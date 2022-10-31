@@ -46,7 +46,7 @@ body{
    position:relative;
 }
 
-.headerBox button, .bannerContainer button{
+.headerBox button, .bannerContainer button, .divFormMensaje #bEnviar{
     padding: 8px 10px;
     font-size: 1em;
     font-weight: bold;
@@ -70,14 +70,10 @@ body{
     background-size: cover;
     
 }
-.bannerContainer h1{
+.bannerContainer h2, .bannerContainer p{
     color: azure;
     padding-left: 1em; 
    
-}
-.bannerContainer p{
-    color: azure;
-    padding-left: 1em; 
 }
 
 
@@ -100,6 +96,9 @@ margin: 10px 5px 5px 25px;
 
 
 /*Product List Style */
+.productX{
+ 
+}
 .productList{
     display: flex;
     flex-flow: wrap;
@@ -110,6 +109,8 @@ margin: 10px 5px 5px 25px;
     justify-content: space-between;
     padding: 1em;
 }
+
+
 
 .productList li{
     width: 40%;
@@ -127,4 +128,70 @@ margin: 10px 5px 5px 25px;
 .productList li h3{
     font-size: 1em;
     
+}
+
+/* Style Footer Section*/
+
+.infoAndContact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.infoAndContact ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin:1em 0;
+}
+
+.divFormMensaje{
+    width: 100%;
+    background-color:rgb(179, 221, 255);
+    color: royalblue;
+    font-weight: bold;
+
+}
+
+.infoAndContact form{   
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  margin: 1em;
+  
+  
+}
+.infoAndContact .divName, .infoAndContact .divMsj{
+    
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px 0;
+}
+
+
+.infoAndContact form input,textarea{
+    width: 100%;
+   border: none;
+   outline: none;
+   background-color: aliceblue;
+   font-size: 1em;
+}
+
+.infoAndContact form #msj{
+    font-family: sans-serif;
+    height: 6em;
+}
+
+
+.infoAndContact  #bEnviar{
+    width: 50%;
+}
+.devInfo{
+    display: flex;
+    justify-content: space-between;
+    padding:  0.5em 1em;
 }
