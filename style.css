@@ -3,15 +3,18 @@
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+    background-color: rgb(237, 242, 247);
 }
 
 /* Style header section*/
+
+
 .headerBox{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background-color:rgb(179, 221, 255);
 }
 
 .headerBox img{
@@ -38,6 +41,7 @@ body{
     padding: 3px;
     outline: none;
     border: none;
+    background-color: rgb(237, 242, 247);;
 }
 
 .searchContainer #iconSearch{
@@ -213,12 +217,12 @@ margin: 10px 5px 5px 25px;
     display: flex;
     flex-flow: column;
     align-items: center;
+  
 }
 .loginContainer{
     height: 100%;
     width: 70%;
     padding: 2.5em;
-    background-color: aliceblue;
     display: flex;
     flex-direction:  column;
     justify-content: start;
@@ -239,6 +243,8 @@ margin: 10px 5px 5px 25px;
     border: 1px solid royalblue;
     border-radius: 15px;
     outline: none;
+    font-size: 1em;
+   background-color:  rgb(237, 242, 247);
 }
 
 
@@ -251,8 +257,8 @@ margin: 10px 5px 5px 25px;
 @media  screen and (min-width:800px) {
     /*Style Header en Desktop*/
     .headerBox{
-        margin: 3em 0;
-      
+        padding: 3em ;
+        
     }
     
     .headerBox img{
@@ -358,6 +364,33 @@ margin: 10px 5px 5px 25px;
 
 
 
+/*Style for Login Page Desktop*/
+
+#sectionLogin{
+    min-height: 60vh;
+    justify-content: center;
+  
+}
+
+.loginContainer h2{
+   font-size: 2em;
+}
+.credentials{
+
+    align-items: start;
+    width: 40%;
+}
+.loginContainer input{
+   min-width: 100%;
+   padding: 8px;
+}
+.loginContainer label{
+    font-size:1.2em;
+}
+
+.loginContainer h2, label, input, button{
+    margin: 8px 0;
+}
 
 
 
