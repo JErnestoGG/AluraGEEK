@@ -51,7 +51,7 @@ body{
 }
 
 .headerBox button, .bannerContainer button, .divFormMensaje #bEnviar,
-.loginContainer button{
+.loginContainer button, #addProduct{
     padding: 8px 10px;
     font-size: 1em;
     font-weight: bold;
@@ -144,9 +144,6 @@ margin: 10px 5px 5px 25px;
 
 .infoAndContact{
     width: 100%;
-
-
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,6 +247,53 @@ margin: 10px 5px 5px 25px;
 
 .loginContainer h2, label, input, button{
     margin: 4px 0;
+}
+
+
+.productX .icons{
+display: flex;
+flex-direction: row;
+justify-content: right;
+}
+.productX #delete, .productX #edit{
+    color:royalblue;
+    margin: 0 5px;
+    
+}
+
+.allproductList{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-bottom: 3em;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+
+.allproductList li{
+    width: 35%;
+    margin: 1.5em 1.2em;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    padding: 1em 0;  
+}
+
+
+.allproductList li img{
+    width: 100%;
+    
+}
+.allproductList li h3{
+    font-size: 1em;
+    
 }
 
 
@@ -394,7 +438,19 @@ margin: 10px 5px 5px 25px;
 
 
 
+/*Style for all products page in Desktop*/
+.allDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
+.allproductList{
+    flex-flow: row;
+    padding: 0 3em;
+}
 
 
 
