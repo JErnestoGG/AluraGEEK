@@ -51,7 +51,7 @@ body{
 }
 
 .headerBox button, .bannerContainer button, .divFormMensaje #bEnviar,
-.loginContainer button, #addProduct{
+.loginContainer button, #addProduct, #aggProduct{
     padding: 8px 10px;
     font-size: 1em;
     font-weight: bold;
@@ -296,7 +296,38 @@ justify-content: right;
     
 }
 
+/* Style for add new Product page*/
 
+.addProductContainer{
+    display: flex;
+    flex-direction: column;
+  
+   
+    padding: 25px 0;
+
+}
+
+.productSpecs{
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+.productSpecs label, input, textarea{
+    font-size: 1.2em;
+    
+}
+.productSpecs input{
+   
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+.productSpecs textarea{
+    min-height: 5em;
+    font-family: sans-serif;
+}
 
 @media  screen and (min-width:800px) {
     /*Style Header en Desktop*/
