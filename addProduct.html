@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login AluraGEEK</title>
+</head>
+<body>
+    <header>
+        <div class="headerBox">
+            <img src="media/Logo.png" alt="">
+            <div class="searchContainer">
+                <input id="inputSearch" type="text" placeholder="¿Qué deseas buscar?">
+                <span id="iconSearch">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+
+                </span>
+                
+            </div>
+            <button id="btnLogin" >Menú</button>
+        </div>
+    </header>
+
+
+    <section id="addProduct">
+        <div class="addProductContainer">
+            <h2>Agregar nuevo producto</h2>
+            <div class="productSpecs">
+                <label for="imgURL">URL de la imagen:</label>
+                        <input id="imgURL" type="text"  required>
+        
+
+                <label for="productCaterogy">Categoría:</label>
+                    <input id="productCaterogy" id="user" type="text" required>
+
+                <label for="productName">Nombre del producto:</label>
+                    <input id="productName" type="text" required>
+
+                <label for="productPrice">Precio del producto:</label>
+                    <input id="productPrice" type="text" required>
+
+                    <label for="productDescription">Descripción del producto:</label>
+                    <textarea id="productDescription" type="text" required>
+                    </textarea>
+
+            </div>
+            <button id="aggProduct">Agregar Producto</button>
+        </div>
+    </section>
+    <footer>
+        <div class="infoAndContact">
+               
+                
+                    <img src="media/Logo.png" alt="">
+                    <ul>
+                        <li><a href="">¿Quiénes somos?</a></li>
+                        <li><a href="">Política de privacidad</a></li>
+                        <li><a href="">Política de fidelidad</a></li>
+                        <li><a href="">Nuestras tiendas</a></li>
+                        <li><a href="">Quiero ser franquiciado</a></li>
+                        <li><a href="">Anuncie aquí</a></li>
+                    </ul>
+
+                    <div class="divFormMensaje">
+                        <form action="">
+                                <p>Hable con nosotros</p>
+                                <div class="divName">
+                                    <label for="name">Nombre:</label>
+                                    <input type="text" id="name" placeholder="Su nombre">
+                                </div>
+                                <div class="divMsj">
+                                    <label for="msj">Mensaje:</label>
+                                    <textarea type="text" id="msj" placeholder="Su mensaje"></textarea>
+                                </div>
+                                    <input id="bEnviar" type="submit" value="Enviar mensaje">
+                        </form>
+                    </div>
+
+        </div>
+        <div class="devInfo">
+            <p>Desarrollado por JErnestoGG</p>
+            <p>2022</p>
+
+        </div>
+
+
+
+    </footer>
+</html>
