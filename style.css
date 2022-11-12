@@ -6,8 +6,7 @@ body{
     background-color: rgb(237, 242, 247);
 }
 
-/* Style header section*/
-
+/* Style header section mobile*/
 
 .headerBox{
     display: flex;
@@ -53,7 +52,7 @@ body{
 }
 
 #btnLogin, .bannerContainer button, .divFormMensaje #bEnviar,
-.loginContainer button, #addProduct, #aggProduct{
+.loginContainer button, #aggProduct{
     padding: 8px 10px;
     font-size: 1em;
     font-weight: bold;
@@ -64,7 +63,7 @@ body{
     cursor: pointer;
 }
 
-/* Style banner section*/
+/* Style banner mobile section */
 
 
 .bannerContainer{
@@ -89,14 +88,6 @@ body{
 width: 35%;
 margin: 10px 5px 5px 25px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -258,6 +249,7 @@ margin: 10px 5px 5px 25px;
 }
 
 
+
 .productX .icons{
 display: flex;
 flex-direction: row;
@@ -337,7 +329,10 @@ justify-content: right;
     min-height: 5em;
     font-family: sans-serif;
 }
-
+#aggProduct{
+    margin-left: 2em;
+   width: 40%;
+}
 /*Style for edit product in mobile*/
 
 .productContainer{
@@ -559,7 +554,7 @@ justify-content: right;
     font-family: sans-serif;
 }
 
-/*Style for edit product in mobile*/
+/*Style for edit product in desktop*/
 
 .productContainer{
    
